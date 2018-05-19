@@ -1,0 +1,19 @@
+[[constraint]]
+    name = "github.com/dlsniper/depone"
+    version = "1.0.0"
+
+[[constraint]]
+    name = "github.com/dlsniper/depthree"
+    version = "1.0.0"
+
+[[constraint]]
+    name = "github.com/dlsniper/deptwo"
+    version = "1.0.0"
+
+[[constraint]]
+    name = "github.com/sirupsen/logrus"
+    version = "1.0.5"
+
+[prune]
+  go-tests = true
+  unused-packages = true
